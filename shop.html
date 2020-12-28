@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>六角西餐廳</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<script src="js/all.js" type="text/javascript"></script>
+</head>
+<body>
+	<nav>
+		<div class="container nav-bar">
+			<h1 class="logo"><a href="index.html">六角西餐廳</a></h1>
+			<ul class="nav-menu">
+				<li><a href="index.html">首頁</a></li>
+				<li><a href="index.html#feature">特色</a></li>
+				<li><a href="index.html#chef">主廚</a></li>
+				<li><a href="index.html#reservation">訂位</a></li>
+				<li><a href="shop.html" class="checked">商店</a></li>
+				<li><a href="login.html">登入</a></li>
+				<li><a href="register.html">註冊</a></li>
+			</ul>
+			<div class="nav-h-icon"> <!--漢堡選單-->
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<header class="banner">
+			<div class="slogan">
+				<h2>咬一口</h2><h2>就無法忘懷的漢堡</h2>
+				<p>
+				七夕絕對無法錯過的好滋味<br>
+				<i class="fa fa-cutlery" aria-hidden="true"></i>&nbsp;六角大漢堡&nbsp;<i class="fa fa-cutlery" aria-hidden="true"></i>
+				</p>
+			</div>
+		</header>
+		<section id="shop" class="bg-gray clearfix">
+			<aside id="shop-menu" class="bg-gray">
+				<h3><i class="fa fa-leaf" aria-hidden="true"></i>&nbsp;線上訂購美食</h3>
+				<ul class="category-list">
+					<li><a href="#" class="checked" data-category="all">全部&nbsp;<span></span></a></li>
+					<li><a href="#" data-category="fries">只愛吃薯條&nbsp;<span></span></a></li>
+					<li><a href="#" data-category="microwave">加熱就可食&nbsp;<span></span></a></li>
+					<li><a href="#" data-category="hamburger">不敗漢堡系列&nbsp;<span></span></a></li>
+				</ul>
+			</aside>
+			<section id="shop-content" class="bg-gray clearfix">
+				<div class="cart-menu clearfix">
+					<div class="searchwrap">
+						<!-- 如果使用 <input type="search"> 在 Safari 中都會跑版，因此統一改為 type="text" 以文字輸入框取代 -->
+						<input type="text" class="search">
+						<button type="submit" class="search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</div>
+					<div class="cart clearfix">
+						<a href="#">結帳去</a>
+						<a href="#" class="shopping-cart">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							<span class="order-quantity">1</span>
+						</a>
+					</div>
+				</div>
+				<div class="products clearfix">
+					<ul class="product-list">
+						<li data-product-type="hamburger">
+							<div class="hot-sale-ribbon"></div>
+							<a href="#">
+								<img src="img/product_1@2x.png" alt="">
+								<h3 class="product-title">經典漢堡套餐</h3>
+								<p>Classic Hamburger Package</p>
+							</a>
+							<i class="heart fa fa-heart-o" aria-hidden="true" title="加到我的最愛"></i>
+							<p class="product-price">$<span>120</span></p>
+							<a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;加入購物車</a>
+						</li>
+						<li data-product-type="hamburger">
+							<a href="#">
+								<img src="img/product_2@2x.png" alt="">
+								<h3 class="product-title">英俊香腸</h3>
+								<p>Handsome Sausage</p>
+							</a>
+							<i class="heart fa fa-heart-o" aria-hidden="true" title="加到我的最愛"></i>
+							<p class="product-price">$<span>1,024</span></p>
+							<a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;加入購物車</a>
+						</li>
+						<li data-product-type="hamburger">
+							<a href="#">
+								<img src="img/product_3@2x.png" alt="">
+								<h3 class="product-title">漢堡兄弟</h3>
+								<p>Hamburger Brothers</p>
+							</a>
+							<i class="heart fa fa-heart-o" aria-hidden="true" title="加到我的最愛"></i>
+							<p class="product-price">$<span>792</span></p>
+							<a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;加入購物車</a>
+						</li>
+						<li data-product-type="hamburger">
+							<a href="#">
+								<img src="img/product_4@2x.png" alt="">
+								<h3 class="product-title">完美願望</h3>
+								<p>Dragon Ball Package</p>
+							</a>
+							<i class="heart fa fa-heart" aria-hidden="true" title="加到我的最愛"></i>
+							<p class="product-price">$<span>999,999</span></p>
+							<a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;加入購物車</a>
+						</li>
+						<li data-product-type="microwave">
+							<a href="#">
+								<img src="img/product_5@2x.jpg" alt="">
+								<h3 class="product-title">港式燒賣</h3>
+								<p>Microwave Dim Sum</p>
+							</a>
+							<i class="heart fa fa-heart-o" aria-hidden="true" title="加到我的最愛"></i>
+							<p class="product-price">$<span>100</span></p>
+							<a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;加入購物車</a>
+						</li>
+						<li data-product-type="fries">
+							<a href="#">
+								<img src="img/product_6@2x.jpg" alt="">
+								<h3 class="product-title">薯條三兄弟</h3>
+								<p>Fries Three Brothers</p>
+							</a>
+							<i class="heart fa fa-heart-o" aria-hidden="true" title="加到我的最愛"></i>
+							<p class="product-price">$<span>360</span></p>
+							<a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;加入購物車</a>
+						</li>
+						<li data-product-type="fries">
+							<a href="#">
+								<img src="img/product_7@2x.jpg" alt="">
+								<h3 class="product-title">原味薯條</h3>
+								<p>Original French Fries</p>
+							</a>
+							<i class="heart fa fa-heart-o" aria-hidden="true" title="加到我的最愛"></i>
+							<p class="product-price">$<span>240</span></p>
+							<a href="#" class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;加入購物車</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</section>
+		
+		<footer class="bg-gray clearfix">
+			<div class="about">
+				<h2>關於&nbsp;六角西餐廳</h2>
+				<p>Curabitur lobortis id lorem id bibndum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. </p>
+			</div>
+			<div class="contact">
+				<h2>聯絡方式</h2>
+				<ul>
+					<li><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;高雄市中正五路到底</li>
+					<li><i class="fa fa-phone fa-fw" aria-hidden="true"></i>&nbsp;+886-886-886</li>
+					<li><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>&nbsp;<a href="mailto:service@hexschool.com">service@hexschool.com</a></li>
+				</ul>
+			</div>
+			<div class="social-media">
+				<img src="img/logo_l.svg" alt="logo">
+				<div class="clearfix"></div>
+				<div class="sm-icon">
+					<a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus-square google-plus" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/?lang=zh-tw" target="_blank"><i class="fa fa-twitter-square twitter" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/hexschool/" target="_blank"><i class="fa fa-facebook-square fb" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</footer>
+		<button class="b2t"><img src="img/b2t.png" alt="Back to Top Image"></button>
+	</div>
+</body>
+</html>

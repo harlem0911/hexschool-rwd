@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>六角西餐廳</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<script src="js/all.js" type="text/javascript"></script>
+</head>
+<body>
+	<nav>
+		<div class="container nav-bar">
+			<h1 class="logo"><a href="index.html">六角西餐廳</a></h1>
+			<ul class="nav-menu">
+				<li><a href="index.html">首頁</a></li>
+				<li><a href="index.html#feature">特色</a></li>
+				<li><a href="index.html#chef">主廚</a></li>
+				<li><a href="index.html#reservation">訂位</a></li>
+				<li><a href="shop.html">商店</a></li>
+				<li><a href="login.html">登入</a></li>
+				<li><a href="register.html" class="checked">註冊</a></li>
+			</ul>
+			<div class="nav-h-icon"> <!--漢堡選單-->
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<header class="banner">
+			<div class="slogan">
+				<h2>咬一口</h2><h2>就無法忘懷的漢堡</h2>
+				<p>
+				七夕絕對無法錯過的好滋味<br>
+				<i class="fa fa-cutlery" aria-hidden="true"></i>&nbsp;六角大漢堡&nbsp;<i class="fa fa-cutlery" aria-hidden="true"></i>
+				</p>
+			</div>
+		</header>
+		<section id="registration" class="bg-gray clearfix">
+			<h2><img src="img/logo_l.svg" alt="logo">享受美食好味道</h2>
+			<div class="register-form clearfix">
+				<h3>REGISTER</h3>
+				<div class="register-rule">
+					<p>就是這樣條款：</p>
+					<p>Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien...</p>
+				</div>
+				<form action="index.html" class="register">
+					<p>Email Address*</p>
+					<!-- 因為 chrome 的自動填入功能，會把背景圖蓋掉，所以另外用一個 wrapper 將 input 和背景圖包起來，並將兩者分開。 -->
+					<!-- 而不是直接在 input 設定背景圖，就可以避免 chrome 的自動填入功能將背景圖蓋掉。 -->
+					<div class="email-wrapper">
+						<input type="email" name="useremail" class="email" required>
+						<span class="email-icon"></span>
+					</div>
+					<p>Password*</p>
+					<input type="password" name="password" class="password" required>
+					<input type="password" name="password-valid" class="confirm-password" required>
+					<a href="#">已經有帳號了？</a>
+					<div class="btn-group">
+						<button type="submit" class="btn btn-o btn-register">註冊</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<footer class="bg-gray clearfix">
+			<div class="about">
+				<h2>關於&nbsp;六角西餐廳</h2>
+				<p>Curabitur lobortis id lorem id bibndum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. </p>
+			</div>
+			<div class="contact">
+				<h2>聯絡方式</h2>
+				<ul>
+					<li><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;高雄市中正五路到底</li>
+					<li><i class="fa fa-phone fa-fw" aria-hidden="true"></i>&nbsp;+886-886-886</li>
+					<li><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>&nbsp;<a href="mailto:service@hexschool.com">service@hexschool.com</a></li>
+				</ul>
+			</div>
+			<div class="social-media">
+				<img src="img/logo_l.svg" alt="logo">
+				<div class="clearfix"></div>
+				<div class="sm-icon">
+					<a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus-square google-plus" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/?lang=zh-tw" target="_blank"><i class="fa fa-twitter-square twitter" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/hexschool/" target="_blank"><i class="fa fa-facebook-square fb" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

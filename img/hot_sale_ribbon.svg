@@ -1,0 +1,14 @@
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_2" fill="#00936e" d="m5.422,0l5.421,5.422l-10.843,0l5.422,-5.422z"/>
+  <path id="svg_3" fill="#00936e" d="m80,74.329l-5.167,5.665l-0.498,-11.916l5.665,6.251z"/>
+  <path id="svg_4" fill="#0c9" d="m80,74.578l0,-30.04l-44.238,-44.538l-30.34,0l74.578,74.578z"/>
+  <text font-weight="normal" transform="rotate(45.25726318359375 50.15497207641602,29.889347076416016) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_11" y="35.412286" x="18.162785" stroke-opacity="null" stroke-width="0" stroke="null" fill="#ffffff">熱銷美食</text>
+ </g>
+</svg>
